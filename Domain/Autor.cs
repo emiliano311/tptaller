@@ -1,7 +1,11 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace TPFinal.Domain
 {
     public class Autor
-    {
+    {   
+        [Key]
+        public int Id { get; set; }
         private string iNombre;
         private int iIdAutor;
         public Autor(string pNombre, int pIdAutor)

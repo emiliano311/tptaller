@@ -10,7 +10,7 @@ namespace TPFinal
         {
             Console.WriteLine("Hello World!");
             UsuarioSimple usuarioSimple = new UsuarioSimple();
-           // usuarioSimple.NumeroUsuario = 24;
+            usuarioSimple.NumeroUsuario = 24;
             usuarioSimple.Nombre = "Juan";
             usuarioSimple.Puntaje = 1;
             usuarioSimple.Direccion = "";
@@ -21,8 +21,9 @@ namespace TPFinal
             RepositorioUsuario repositorioUsuario = new RepositorioUsuario(db);
             try
             {
-                db.usuarios.Add(usuarioSimple);
+                db.Usuarios.Add(usuarioSimple);
                 db.SaveChanges();
+               
             }
             catch (System.Data.Entity.Core.EntityException e) {   
                 Console.WriteLine(e);

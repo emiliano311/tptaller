@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace TPFinal.Domain
 {
     public class Editorial
     {
+        [Key]
         private string iNombre;
         private string iDireccion;
         private int iTelefono;

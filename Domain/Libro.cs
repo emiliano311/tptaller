@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace TPFinal.Domain
 {
     public class Libro
     {
+        [Key]
         private int iISBN;
         private string iTitulo;
         private DateTime iFechaPublicacion;

@@ -1,7 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace TPFinal.Domain
 {
+
     public class UsuarioSimple
-    {
+    {   [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         private int iNumeroUsuario;
         private string iNombre;
         private string iDireccion;

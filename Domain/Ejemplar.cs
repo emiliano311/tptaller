@@ -1,8 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace TPFinal.Domain
 {
     public class Ejemplar
     {
+        [Key]
         private int iCodigoInventario;
         private int iCodigoUbicacion;
         private DateTime iFechaAlta;
