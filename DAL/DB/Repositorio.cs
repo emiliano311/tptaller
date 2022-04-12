@@ -4,6 +4,7 @@ using System.Linq;
 using System.Data.Entity.Infrastructure;
 using System.Threading.Tasks;
 using PFinal.DAL.EntityFramework;
+using EntityFramework.PrimaryKey;
 
 namespace TPFinal.DAL.EntityFramework
 {
@@ -74,14 +75,11 @@ namespace TPFinal.DAL.EntityFramework
             });
         }
 
-        /*
-         TODO: HACER FUNCIONAR ESTOS METODOS.
-         */
 
-        //public object GetPrimaryKey(TEntity entity) => Context.GetPrimaryKey(entity).Values.First();
+        public object GetPrimaryKey(TEntity entity) => Context.GetPrimaryKey(entity).Values.First();
 
-        //public async Task<TEntity> GetEntity(TEntity entity) => await GetByID(GetPrimaryKey(entity));
+        public async Task<TEntity> GetEntity(TEntity entity) => await GetByID(GetPrimaryKey(entity));
 
-        //protected async Task<DbEntityEntry> GetEntry(TEntity entity) => Context.Entry(await GetEntity(entity));
+        protected async Task<DbEntityEntry> GetEntry(TEntity entity) => Context.Entry(await GetEntity(entity));
     }
 }
