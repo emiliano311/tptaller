@@ -10,7 +10,8 @@ namespace TPFinal.DAL.EntityFramework
         public DbSet<Prestamo> prestamos { get; set; }
         public DbSet<Ejemplar> ejemplar { get; set; }
 
-        public DataContext() : base("name=ManagerPrestamosContext")
+
+        public DataContext() : base("name=DBContext")
         { }
 
     }
