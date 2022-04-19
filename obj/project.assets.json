@@ -6262,19 +6262,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emi\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj",
       "projectName": "TPFinal",
-      "projectPath": "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj",
-      "packagesPath": "C:\\Users\\Emi\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\facu\\TPFinal\\TPFinal\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Emi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6328,7 +6328,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   },

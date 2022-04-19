@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace TPFinal.Domain
 {
@@ -14,6 +15,8 @@ namespace TPFinal.Domain
         private int iDocumento;
         private int iPuntaje;
         private string iMail;
+
+        public virtual ICollection<Prestamo> Prestamo { get; set; }
 
         public UsuarioSimple() { }
         public UsuarioSimple (int pNumeroUsuario, string pNombre, string pDireccion, int pTelefono, int pDocumento, int pPuntaje, string pMail)

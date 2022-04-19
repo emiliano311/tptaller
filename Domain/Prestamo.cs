@@ -3,6 +3,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace TPFinal.Domain
 {
     public class Prestamo
@@ -13,6 +14,8 @@ namespace TPFinal.Domain
         private DateTime iFechaInicio;
         private DateTime iFechaFin;
         private DateTime iFechaVencimiento;
+        private Ejemplar Ejemplar { get; set; }
+        private UsuarioSimple UsuarioSimple { get; set; }
         public Prestamo (int pIdPrestamo, DateTime pFechaFin, DateTime pFechaVencimiento)
         {
             iIdPrestamo = pIdPrestamo;

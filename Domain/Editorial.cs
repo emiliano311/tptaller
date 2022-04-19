@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace TPFinal.Domain
 {
@@ -9,6 +10,8 @@ namespace TPFinal.Domain
         private string iDireccion;
         private int iTelefono;
         private int iIdEditorial;
+
+        public virtual ICollection<Libro> Libro { get; set; }
         public Editorial (string pNombre, string pDireccion, int pTelefono, int pIdEditorial)
         {
             iNombre = pNombre;

@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace TPFinal.Domain
 {
@@ -10,6 +11,9 @@ namespace TPFinal.Domain
         private int iCodigoUbicacion;
         private DateTime iFechaAlta;
         private bool iPrestado;
+        private Libro Libro { get; set; }
+
+        public virtual ICollection<Prestamo> Prestamo { get; set; }
         public Ejemplar(int pCodigoInventario, int pCodigoUbicacion, DateTime pFechaAlta)
         {
             iCodigoInventario = pCodigoInventario;
