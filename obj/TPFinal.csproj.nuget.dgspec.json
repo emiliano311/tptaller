@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj": {}
+    "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj": {
+    "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj",
+        "projectUniqueName": "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj",
         "projectName": "TPFinal",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\TPFinal.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Facultad\\Materias\\3ro\\Taller de Programacion\\tp final git\\tptaller\\obj\\",
+        "projectPath": "D:\\Code\\facu\\TPFinal\\TPFinal\\TPFinal.csproj",
+        "packagesPath": "C:\\Users\\Emi\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\facu\\TPFinal\\TPFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Emi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,12 +63,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.16, 5.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

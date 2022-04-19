@@ -7,11 +7,11 @@ namespace TPFinal.Domain
 {
 	public class LibroAutor
 	{
-		public LibroAutor()
-        {
+		private Libro Libro { get; set; }
+		public Autor Autor { get; set; }
+
+		public LibroAutor(){ }
 			
-			private Libro Libro { get; set; }
-			public Autor Autor { get; set; }
-		}
 	}
+	
 }
